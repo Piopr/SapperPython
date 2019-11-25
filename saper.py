@@ -160,14 +160,14 @@ def sapper():
     while(True):        
         while (True):
             try:
-                x = int(input("Podaj wspolrzedna x do odkrycia: "))
+                x = int(input("Podaj wspolrzedna y do odkrycia: "))
             except ValueError:
                 print("Nie wprowadzono liczby calkowitej")
             else:
                 break
         while (True):
             try:
-                y = int(input("Podaj wspolrzedna y do odkrycia: "))
+                y = int(input("Podaj wspolrzedna x do odkrycia: "))
             except ValueError:
                 print("Nie wprowadzono liczby calkowitej")
             else:
